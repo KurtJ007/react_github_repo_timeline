@@ -48,7 +48,6 @@ p {
   color: hsl(210, 22%, 49%);
 }
 .errorMsg {
-  position: grid;
   height: 30px;
   left: 0;
   text-transform: capitalize;
@@ -241,10 +240,10 @@ svg {
   color: #f0b429;
 }
 
-.timeGroup:nth-child(even) {
+.timeGroup:nth-child(odd) {
   grid-column: 8/10;
 }
-.timeGroup:nth-child(odd) {
+.timeGroup:nth-child(even) {
   grid-column: 7/5;
 }
 
@@ -325,10 +324,10 @@ svg {
     border-radius: 5px;
     padding: 0.5rem;
   }
-  .timeGroup:nth-child(even) {
+  .timeGroup:nth-child(odd) {
     grid-column: 8/13;
   }
-  .timeGroup:nth-child(odd) {
+  .timeGroup:nth-child(even) {
     grid-column: 2/7;
   }
 }
