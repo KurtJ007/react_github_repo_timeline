@@ -1,6 +1,6 @@
 import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
-import loadingGif from "../imgs/preloader.gif";
+import loadingGif from "../imgs/preloader.svg";
 
 function AuthWrapper({ children }) {
   const { isLoading, error } = useAuth0();
