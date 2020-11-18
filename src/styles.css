@@ -241,10 +241,10 @@ svg {
   color: #f0b429;
 }
 
-.timeGroup:nth-child(odd) {
+.timeGroup:nth-child(even) {
   grid-column: 8/10;
 }
-.timeGroup:nth-child(even) {
+.timeGroup:nth-child(odd) {
   grid-column: 7/5;
 }
 
