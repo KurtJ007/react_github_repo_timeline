@@ -47,6 +47,17 @@ p {
   margin-bottom: 1.25rem;
   color: hsl(210, 22%, 49%);
 }
+.errorMsg {
+  position: grid;
+  width: 90vw;
+  height: 30px;
+  left: 0;
+  text-transform: capitalize;
+}
+.errorMsg > p {
+  color: red;
+  letter-spacing: 1;
+}
 .btn {
   text-transform: uppercase;
   background: hsl(185, 62%, 45%);
@@ -66,7 +77,7 @@ p {
   background: hsl(184, 80%, 74%);
   color: hsl(185, 91%, 17%);
 }
-.Error {
+.ErrorPage {
   min-height: 100vh;
   display: grid;
   place-items: center;
@@ -74,11 +85,11 @@ p {
   text-align: center;
 }
 
-.Error > h1 {
+.ErrorPage > h1 {
   font-size: 10rem;
 }
 
-.Error > h3 {
+.ErrorPage > h3 {
   margin-bottom: 1.5rem;
 }
 

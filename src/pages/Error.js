@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 
 const Error = () => {
   return (
-    <div className="Error">
+    <div className="ErrorPage">
       <h1>404</h1>
       <h3>Sorry, the page you have tried does not exist.</h3>
       <Button variant="primary" size="lg">

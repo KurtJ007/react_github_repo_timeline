@@ -70,11 +70,7 @@ const Search = () => {
   return (
     <section className="section search">
       <div className="searchWrapper ">
-        {error.show && (
-          <div className="errorWrapper">
-            <p>{error.msg}</p>
-          </div>
-        )}
+        <div className="errorMsg">{error.show && <p>{error.msg}</p>}</div>
         <form onSubmit={handleSubmit}>
           <div className="form-control">
             <FontAwesomeIcon icon={faSearch} size="2x" />

@@ -1,5 +1,5 @@
 import React from "react";
-import { Info, Search, Navbar, Timeline } from "../components";
+import { Info, Search, Timeline } from "../components";
 import loadingImage from "../imgs/preloader.svg";
 import { GithubContext } from "../context/context";
 
@@ -8,7 +8,6 @@ const Dashboard = () => {
   if (isLoading) {
     return (
       <main>
-        <Navbar></Navbar>
         <Search />
         <section className="section">
           <img src={loadingImage} className="loading-img" alt="loading" />
@@ -18,7 +17,6 @@ const Dashboard = () => {
   } else {
     return (
       <main>
-        <Navbar></Navbar>
         <Search />
         <Info />
         <Timeline />

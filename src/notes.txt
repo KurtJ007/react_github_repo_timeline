@@ -1,4 +1,0 @@
-https://react-icons.github.io/react-icons/
-
-Domain - dev-jzmlsu93.us.auth0.com
-ClientID - hv6mT6gc03vPoAA8fFGVAvbjVAZ50J2Y
