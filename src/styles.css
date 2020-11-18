@@ -49,7 +49,6 @@ p {
 }
 .errorMsg {
   position: grid;
-  width: 90vw;
   height: 30px;
   left: 0;
   text-transform: capitalize;
